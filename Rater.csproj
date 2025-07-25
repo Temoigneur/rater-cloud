@@ -3,7 +3,6 @@
 	<PropertyGroup>
 		<ContainerUser>root</ContainerUser>
 		<TargetFramework>net8.0</TargetFramework>
-		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
@@ -58,7 +57,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="E:\Rater1\SharedModels\SharedModels.csproj" />
+		<ProjectReference Include="SharedModels\SharedModels.csproj" />
 	</ItemGroup>
 
 </Project>
