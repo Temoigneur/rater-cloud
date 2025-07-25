@@ -7,8 +7,9 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 
-# Copy project file and restore dependencies
+# Copy project files and restore dependencies
 COPY ["Rater.csproj", "."]
+COPY ["SharedModels/SharedModels.csproj", "SharedModels/"]
 RUN dotnet restore "Rater.csproj"
 
 # Copy all source files
