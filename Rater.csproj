@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<ContainerUser>root</ContainerUser>
+		<TargetFramework>net8.0</TargetFramework>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+
+		<!-- Simplified SpaRoot (no absolute paths) -->
+		<SpaRoot>wwwroot\</SpaRoot>
+		<Configurations>Debug;Release;Deploy</Configurations>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DebugType>full</DebugType>
+		<AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+		<Optimize>True</Optimize>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Include built frontend dist folder (if applicable) -->
+		<Content Include="wwwroot\dist\**" LinkBase="wwwroot\" CopyToPublishDirectory="PreserveNewest" />
+	</ItemGroup>
+
+	<!-- Original project configuration -->
+	<ItemGroup>
+		<Compile Remove="Services\Old_SpotifyService.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Remove="Services\IOpenAIService.cs~RF134352d2.TMP" />
+		<None Remove="Services\OpenAIService.cs~RF44f848c.TMP" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="13.0.1" />
+		<PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+		<PackageReference Include="FuzzySharp" Version="2.0.2" />
+		<PackageReference Include="HtmlAgilityPack" Version="1.12.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.15" />
+		<PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.4" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="9.0.4" />
+		<PackageReference Include="Microsoft.Extensions.Http.Polly" Version="9.0.4" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.4" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.4" />
+		<PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.4" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.4" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="Polly" Version="8.5.2" />
+		<PackageReference Include="Selenium.Support" Version="4.32.0" />
+		<PackageReference Include="Selenium.WebDriver" Version="4.32.0" />
+		<PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="136.0.7103.4900" />
+		<PackageReference Include="SpotifyAPI.Web" Version="7.2.1" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="E:\Rater1\SharedModels\SharedModels.csproj" />
+	</ItemGroup>
+
+</Project>

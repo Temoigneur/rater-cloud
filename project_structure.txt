@@ -1,0 +1,263 @@
+Folder PATH listing for volume One Touch 
+Volume serial number is 36F6-DE17
+E:.
+³   appsettings.Development.json
+³   appsettings.json
+³   Program.cs
+³   project_structure.txt
+³   Rater.csproj
+³   Rater.sln
+³   
+ÃÄÄÄbin
+³   ÀÄÄÄDebug
+³       ÀÄÄÄnet6.0
+³           ³   appsettings.Development.json
+³           ³   appsettings.json
+³           ³   Microsoft.AspNetCore.JsonPatch.dll
+³           ³   Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+³           ³   Microsoft.Extensions.Caching.Abstractions.dll
+³           ³   Microsoft.Extensions.Caching.Memory.dll
+³           ³   Microsoft.Extensions.Configuration.Abstractions.dll
+³           ³   Microsoft.Extensions.DependencyInjection.Abstractions.dll
+³           ³   Microsoft.Extensions.DependencyInjection.dll
+³           ³   Microsoft.Extensions.Http.dll
+³           ³   Microsoft.Extensions.Logging.Abstractions.dll
+³           ³   Microsoft.Extensions.Logging.dll
+³           ³   Microsoft.Extensions.Options.dll
+³           ³   Microsoft.Extensions.Primitives.dll
+³           ³   Newtonsoft.Json.Bson.dll
+³           ³   Newtonsoft.Json.dll
+³           ³   Rater.deps.json
+³           ³   Rater.dll
+³           ³   Rater.exe
+³           ³   Rater.pdb
+³           ³   Rater.runtimeconfig.json
+³           ³   Rater.staticwebassets.runtime.json
+³           ³   SpotifyAPI.Web.dll
+³           ³   SpotifyPrivateAPI.deps.json
+³           ³   SpotifyPrivateAPI.dll
+³           ³   SpotifyPrivateAPI.exe
+³           ³   SpotifyPrivateAPI.pdb
+³           ³   SpotifyPrivateAPI.runtimeconfig.json
+³           ³   System.Diagnostics.DiagnosticSource.dll
+³           ³   
+³           ÀÄÄÄGuidelines
+³                   album_functional.json
+³                   album_navigational.json
+³                   ambiguous.json
+³                   artist_functional.json
+³                   artist_navigational.json
+³                   curator.json
+³                   genre_category.json
+³                   lyrics.json
+³                   playlist_functional.json
+³                   playlist_navigational.json
+³                   radio.json
+³                   record_label.json
+³                   similarity_query.json
+³                   song_functional.json
+³                   song_navigational.json
+³                   soundtrack_navigational.json
+³                   video_navigational.json
+³                   
+ÃÄÄÄControllers
+³       AlbumController.cs
+³       ClassificationController.cs
+³       EvaluationController.cs
+³       FunctionalQueryEvaluatorController.cs
+³       HomeController.cs
+³       OutputController.cs
+³       QueryController.cs
+³       TrackController.cs
+³       
+ÃÄÄÄGuidelines
+³       album_functional.json
+³       album_navigational.json
+³       ambiguous.json
+³       artist_functional.json
+³       artist_navigational.json
+³       curator.json
+³       genre_category.json
+³       lyrics.json
+³       playlist_functional.json
+³       playlist_navigational.json
+³       radio.json
+³       record_label.json
+³       similarity_query.json
+³       song_functional.json
+³       song_navigational.json
+³       soundtrack_navigational.json
+³       video_navigational.json
+³       
+ÃÄÄÄModels
+³       AlbumModel.cs
+³       ClassificationModel.cs
+³       ErrorViewModel.cs
+³       OutputModel.cs
+³       QueryModel.cs
+³       TrackModel.cs
+³       
+ÃÄÄÄobj
+³   ³   project.assets.json
+³   ³   project.nuget.cache
+³   ³   Rater.csproj.nuget.dgspec.json
+³   ³   Rater.csproj.nuget.g.props
+³   ³   Rater.csproj.nuget.g.targets
+³   ³   
+³   ÀÄÄÄDebug
+³       ÀÄÄÄnet6.0
+³           ³   .NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+³           ³   ApiEndpoints.json
+³           ³   apphost.exe
+³           ³   Rater.AssemblyInfo.cs
+³           ³   Rater.AssemblyInfoInputs.cache
+³           ³   Rater.assets.cache
+³           ³   Rater.csproj.AssemblyReference.cache
+³           ³   Rater.csproj.BuildWithSkipAnalyzers
+³           ³   Rater.csproj.CoreCompileInputs.cache
+³           ³   Rater.csproj.FileListAbsolute.txt
+³           ³   Rater.csproj.Up2Date
+³           ³   Rater.dll
+³           ³   Rater.GeneratedMSBuildEditorConfig.editorconfig
+³           ³   Rater.genruntimeconfig.cache
+³           ³   Rater.GlobalUsings.g.cs
+³           ³   Rater.MvcApplicationPartsAssemblyInfo.cache
+³           ³   Rater.pdb
+³           ³   Rater.RazorAssemblyInfo.cache
+³           ³   Rater.RazorAssemblyInfo.cs
+³           ³   staticwebassets.build.json
+³           ³   staticwebassets.development.json
+³           ³   staticwebassets.pack.json
+³           ³   
+³           ÃÄÄÄref
+³           ³       Rater.dll
+³           ³       
+³           ÃÄÄÄrefint
+³           ³       Rater.dll
+³           ³       
+³           ÃÄÄÄscopedcss
+³           ³   ÃÄÄÄbundle
+³           ³   ³       Rater.styles.css
+³           ³   ³       
+³           ³   ÃÄÄÄprojectbundle
+³           ³   ³       Rater.bundle.scp.css
+³           ³   ³       
+³           ³   ÀÄÄÄViews
+³           ³       ÀÄÄÄShared
+³           ³               _Layout.cshtml.rz.scp.css
+³           ³               
+³           ÀÄÄÄstaticwebassets
+³                   msbuild.build.Rater.props
+³                   msbuild.buildMultiTargeting.Rater.props
+³                   msbuild.buildTransitive.Rater.props
+³                   msbuild.Rater.Microsoft.AspNetCore.StaticWebAssets.props
+³                   
+ÃÄÄÄProperties
+³       launchSettings.json
+³       
+ÃÄÄÄServices
+³       IOpenAIService.cs
+³       ISpotifyService.cs
+³       OpenAIService.cs
+³       SpotifyService.cs
+³       
+ÃÄÄÄViews
+³   ³   _ViewImports.cshtml
+³   ³   _ViewStart.cshtml
+³   ³   
+³   ÃÄÄÄHome
+³   ³       Index.cshtml
+³   ³       Privacy.cshtml
+³   ³       
+³   ÀÄÄÄShared
+³           Error.cshtml
+³           _Layout.cshtml
+³           _Layout.cshtml.css
+³           _ValidationScriptsPartial.cshtml
+³           
+ÀÄÄÄwwwroot
+    ³   favicon.ico
+    ³   index.html
+    ³   
+    ÃÄÄÄcss
+    ³       site.css
+    ³       
+    ÃÄÄÄjs
+    ³       app.js
+    ³       site.js
+    ³       
+    ÀÄÄÄlib
+        ÃÄÄÄbootstrap
+        ³   ³   LICENSE
+        ³   ³   
+        ³   ÀÄÄÄdist
+        ³       ÃÄÄÄcss
+        ³       ³       bootstrap-grid.css
+        ³       ³       bootstrap-grid.css.map
+        ³       ³       bootstrap-grid.min.css
+        ³       ³       bootstrap-grid.min.css.map
+        ³       ³       bootstrap-grid.rtl.css
+        ³       ³       bootstrap-grid.rtl.css.map
+        ³       ³       bootstrap-grid.rtl.min.css
+        ³       ³       bootstrap-grid.rtl.min.css.map
+        ³       ³       bootstrap-reboot.css
+        ³       ³       bootstrap-reboot.css.map
+        ³       ³       bootstrap-reboot.min.css
+        ³       ³       bootstrap-reboot.min.css.map
+        ³       ³       bootstrap-reboot.rtl.css
+        ³       ³       bootstrap-reboot.rtl.css.map
+        ³       ³       bootstrap-reboot.rtl.min.css
+        ³       ³       bootstrap-reboot.rtl.min.css.map
+        ³       ³       bootstrap-utilities.css
+        ³       ³       bootstrap-utilities.css.map
+        ³       ³       bootstrap-utilities.min.css
+        ³       ³       bootstrap-utilities.min.css.map
+        ³       ³       bootstrap-utilities.rtl.css
+        ³       ³       bootstrap-utilities.rtl.css.map
+        ³       ³       bootstrap-utilities.rtl.min.css
+        ³       ³       bootstrap-utilities.rtl.min.css.map
+        ³       ³       bootstrap.css
+        ³       ³       bootstrap.css.map
+        ³       ³       bootstrap.min.css
+        ³       ³       bootstrap.min.css.map
+        ³       ³       bootstrap.rtl.css
+        ³       ³       bootstrap.rtl.css.map
+        ³       ³       bootstrap.rtl.min.css
+        ³       ³       bootstrap.rtl.min.css.map
+        ³       ³       
+        ³       ÀÄÄÄjs
+        ³               bootstrap.bundle.js
+        ³               bootstrap.bundle.js.map
+        ³               bootstrap.bundle.min.js
+        ³               bootstrap.bundle.min.js.map
+        ³               bootstrap.esm.js
+        ³               bootstrap.esm.js.map
+        ³               bootstrap.esm.min.js
+        ³               bootstrap.esm.min.js.map
+        ³               bootstrap.js
+        ³               bootstrap.js.map
+        ³               bootstrap.min.js
+        ³               bootstrap.min.js.map
+        ³               
+        ÃÄÄÄjquery
+        ³   ³   LICENSE.txt
+        ³   ³   
+        ³   ÀÄÄÄdist
+        ³           jquery.js
+        ³           jquery.min.js
+        ³           jquery.min.map
+        ³           
+        ÃÄÄÄjquery-validation
+        ³   ³   LICENSE.md
+        ³   ³   
+        ³   ÀÄÄÄdist
+        ³           additional-methods.js
+        ³           additional-methods.min.js
+        ³           jquery.validate.js
+        ³           jquery.validate.min.js
+        ³           
+        ÀÄÄÄjquery-validation-unobtrusive
+                jquery.validate.unobtrusive.js
+                jquery.validate.unobtrusive.min.js
+                LICENSE.txt
+                

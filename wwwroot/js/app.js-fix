@@ -1,0 +1,39 @@
+// Temporary file to demonstrate the fix needed in app.js
+// The issue is in lines ~634-641 where "N/A" strings are assigned to playCount and annualPlayCount
+// This causes server-side validation errors when sending to evaluation API
+
+// Replace these lines:
+/*
+if (!outputData.playCount || outputData.playCount === 0) {
+    console.log("No real play count data available for output, using N/A");
+    outputData.playCount = "N/A";
+}
+
+if (!outputData.annualPlayCount || outputData.annualPlayCount === 0) {
+    console.log("No real annual play count data available for output, using N/A");
+    outputData.annualPlayCount = "N/A";
+}
+*/
+
+// With:
+/*
+if (!outputData.playCount || outputData.playCount === 0) {
+    console.log("No real play count data available for output, using 0");
+    outputData.playCount = 0;
+    outputData.displayPlayCount = "N/A";  // Use displayPlayCount for UI
+}
+
+if (!outputData.annualPlayCount || outputData.annualPlayCount === 0) {
+    console.log("No real annual play count data available for output, using 0");
+    outputData.annualPlayCount = 0;
+    outputData.displayAnnualPlayCount = "N/A";  // Use displayAnnualPlayCount for UI
+}
+*/
+
+// Then ensure the evaluation payload uses the numeric values:
+/*
+PlayCount: outputData?.playCount || 0,
+AnnualPlayCount: outputData?.annualPlayCount || 0,
+DisplayPlayCount: formatPlayCount(outputData?.playCount || 0),
+DisplayAnnualPlayCount: formatPlayCount(outputData?.annualPlayCount || 0)
+*/

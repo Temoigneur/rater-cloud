@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Rater</title>
+    <style>
+        #resultContainer pre {
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+            white-space: pre-wrap; /* Allows text to wrap */
+            overflow-x: auto; /* Adds horizontal scrollbar if needed */
+        }
+    </style>
+</head>
+<body>
+    <h1>Music Search App</h1>
+    <form id="searchForm">
+        <textarea id="inputText" rows="15" cols="80" placeholder="Enter your search query here..."></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="resultContainer"></div>
+
+    <script src="/api/scripts/app.js"></script>
+</body>
+</html>

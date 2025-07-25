@@ -1,0 +1,21 @@
+{
+  "profiles": {
+    "Rater": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5235",
+      "dotnetRunMessages": true
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:49025",
+      "sslPort": 44343
+    }
+  }
+}

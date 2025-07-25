@@ -1,0 +1,28 @@
+TODO
+
+Integrate some of the old instructions below, as the new ones are not returning as accurate results in some cases, and are omitting elements of functional and genre queries:
+
+
+Instructions:
+- Search two or more sources online to accurately answer the question 'Based strictly on the guidelines above, can [output] be described as an example of [query intent]?'
+- Based on your findings, generate a concise response in 3 - 4 hyphenated lines.
+- Line 1:
+  - If the output is a single song, format as:
+    '-Output: [Track Name] by [Artist Name] - ([Total views] - [Annual views]/yr - Spotify) - Released: [MM/YYYY]'
+  - If the output is an album, format as:
+    '-Output: [Album Name] by [Artist Name] - Popularity: [Popularity Score] - Released: [MM/YYYY]'
+- Line 2:
+  - If the intent is a song, format as:
+    '-Intent: [Track Name] by [Artist Name] - ([Total views] - [Annual views]/yr - Spotify) - Released: [MM/YYYY]'
+  - If the intent is an album, format as:
+    '-Intent: [Album Name] by [Artist Name] - Popularity: [Popularity Score] - Released: [MM/YYYY]'
+  - If the intent is a category, format as:
+    '-Intent: [Category Name]'
+- Line 3:
+  - Start the line with '-Output' and provide one sentence that clearly explains the specifics of why or why not the output satisfies the intent, referencing the output's popularity category in addition to other characteristics that cause it to satisfy or not satisfy the intent at a certain level.
+- Line 4:
+  - Choose one statement from the guidelines populated in the first line of these instructions which best justifies the rating you chose, and equate it to the corresponding guideline rating in the following format:
+    '-Guideline statement here' = Rating'
+
+Do not include any additional commentary or explanations.";
+
